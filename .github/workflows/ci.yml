@@ -12,5 +12,5 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Say hello
-      run: echo "Second Pipeline is running successfully!"
+    - name: list files of repo
+      run: ls -l
